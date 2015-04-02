@@ -19,32 +19,19 @@ a {
   color: #e53500;
 }
 
-div.header h1 {
-  font-weight: 300;
-  font-size: 42px;
-  color: white;
-  float: left;
-  line-height: 1;
-}
-
-div.header h1 span {
-  background: #e53500;
-  padding: 5px 20px;
-}
-
 div.header div.logo {
   background-image:  url('images/logo/logo.png');
   background-image:  none,url('images/logo/logo.svg');
   background-size: 100% 100%;
   width: 90px;
   height: 63px;
-  float: right;
+  float: left;
   position: relative;
   top: -8px;
 }
 
 div.apps {
-  margin-top: 108px;
+  margin-top: 96px;
 }
 
 div.apps, div.item {
@@ -107,6 +94,7 @@ h2.icons {
   margin-top: 12px;
   font-size: 32px !important;
   letter-spacing: 9px;
+  float: right;
 }
 
 /* App-specific styling */
