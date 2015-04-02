@@ -112,6 +112,7 @@ div.item#bright div.img {
   height: 444px;
   margin: 0 auto;
   background-image: url('images/bright/bright.png');
+  background-size: 100% 100%;
 }
 
 /* Retina media queries */
@@ -128,5 +129,6 @@ div.item#bright div.img {
   /* Bright */
   div.item#bright div.img {
     background-image:  url('images/bright/bright_x2.png');
+    background-size: 100% 100%;
   }
 }
