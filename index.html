@@ -6,16 +6,23 @@
     <meta name="description" content="We are Intui. We develop and design apps.">
     <meta name="keywords" content="intui,apps,mac os x,os x,mac os,app,develop,development,design,UI,UX">
     <link rel="stylesheet" href="stylesheet.css" type="text/css">
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="bower_components/Hover/css/hover-min.css" type="text/css">
+    <link rel="stylesheet" href="bower_components/animate.css/animate.min.css" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=Fira+Sans:300,300i,400,400i' rel='stylesheet' type='text/css'>
+    <script src="bower_components/WOW/dist/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
   </head>
   <body>
     <div class="wrapper">
-      <div class="header">
+      <div class="header animated fadeInDown">
         <h1><span>We develop and design.</span></h1>
         <div class="logo" alt="Intui"></div>
       </div>
       <div class="apps">
-        <div class="item" id="bright">
+        <div class="item wow fadeIn" id="bright">
           <div class="left">
             <div class="img">
             </div>
@@ -27,9 +34,9 @@
             <h3 class="legal">Intui and Bright are not affiliated with Wolfram Group, LCC or Wolfram Research. Wolfram|Alpha&reg; is a registered trademark of Wolfram Group, LLC.</h3>
           </div>
         </div>
-        <div class="coming">
+        <div class="coming wow fadeInUp">
           <h2>More coming soon.</h2>
-          <h2>For updates, <a href="http://twitter.com/intuico">follow us on Twitter</a>.</h2>
+          <h2 class="icons "><a href="https://twitter.com/intuico"><i class="fa fa-twitter hvr-grow"></i></a> <a href="https://github.com/Intui/"><i class="fa fa-github hvr-grow"></i></a> <a href="https://medium.com/@intui"><i class="fa fa-medium hvr-grow"></i></a></h2>
         </div>
       </div>
     </div>

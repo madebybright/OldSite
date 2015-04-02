@@ -44,7 +44,7 @@ div.header div.logo {
 }
 
 div.apps {
-  margin-top: 92px;
+  margin-top: 128px;
 }
 
 div.apps, div.item {
@@ -82,16 +82,18 @@ div.right h2.soon {
 }
 
 div.right h3.legal {
-  font-size: 12px;
+  font-size: 11px;
   line-height: 1.5;
   position: absolute;
   bottom: 45px;
   width: 380px;
+  color: #999;
 }
 
 div.coming {
   width: 920px;
-  margin: 80px 0;
+  margin-top: 120px;
+  margin-bottom: 50px;
 }
 
 div.coming h2 {
@@ -99,6 +101,12 @@ div.coming h2 {
   font-weight: 300;
   font-size: 24px;
   line-height: 1.6;
+}
+
+h2.icons {
+  margin-top: 12px;
+  font-size: 32px !important;
+  letter-spacing: 9px;
 }
 
 /* App-specific styling */
