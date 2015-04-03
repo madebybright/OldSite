@@ -103,7 +103,7 @@ div.header div.logo {
 }
 
 div.apps {
-  margin-top: 96px;
+  margin: 96px 0;
 }
 
 div.apps, div.item {
@@ -157,7 +157,7 @@ h2.icons {
 }
 
 div.about {
-  margin: 42px 0 128px 0;
+  margin: 52px 0 96px 0;
 }
 
 div.map {
@@ -210,10 +210,41 @@ div.point#adam {
   left: 494px;
 }
 
+div.about h1 {
+  text-align: center;
+  font-weight: 400;
+  padding-top: 320px;
+  font-size: 48px;
+  color: white;
+}
+
+div.about h1 span {
+  background-color: #e53500;
+}
+
+div.slice {
+  width: 920px;
+  height: 1px;
+  background-color: #e53500;
+}
+
+div.footer {
+  margin: 36px 0;
+  height: 18px;
+}
+
+div.footer h3:first-child {
+    float: left;
+}
+
+div.footer h3:nth-child(2) {
+    float: right;
+}
+
 /* App-specific styling */
 
 div.item#bright {
-  height: 450px;
+  height: 420px;
 }
 
 div.item#bright div.img {
