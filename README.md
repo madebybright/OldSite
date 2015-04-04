@@ -1,2 +1,2 @@
 # intui.github.io
-Intui's Website
+Intui's website
