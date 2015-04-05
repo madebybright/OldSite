@@ -20,10 +20,10 @@ $intui: #e53500;
     @include transform(translate(0px,100px));
   }
   50% {
-    @include transform(translate(225px,0px));
+    @include transform(translate(245px,0px));
   }
   75% {
-    @include transform(translate(225px,100px));
+    @include transform(translate(245px,100px));
   }
   100% {
     @include transform(translate(0px,0px));
@@ -116,7 +116,7 @@ div.os .illustration {
 (min-resolution: 192dpi) {
   /* About */
   div.abt .illustration {
-    background-image: url('../images/illustrations/about/monitor_2x.png');
+    background-image: url('../images/illustrations/about/monitor_x2.png');
   }
 
   .mouse {
