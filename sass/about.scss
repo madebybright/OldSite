@@ -17,13 +17,13 @@ $intui: #e53500;
     @include transform(translate(0px,0px));
   }
   25% {
-    @include transform(translate(0px,100px));
+    @include transform(translate(0px,125px));
   }
   50% {
-    @include transform(translate(250px,0px));
+    @include transform(translate(225px,0px));
   }
   75% {
-    @include transform(translate(250px,100px));
+    @include transform(translate(225px,125px));
   }
   100% {
     @include transform(translate(0px,0px));
@@ -93,7 +93,7 @@ div.os .illustration {
   background-image: url('../images/illustrations/os/rays.png');
   position: relative;
   top: 17px;
-  left: 95px;
+  left: 80px;
   @include animation(spin 25.0s infinite linear);
 }
 
